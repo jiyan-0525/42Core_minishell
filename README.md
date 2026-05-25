@@ -10,16 +10,6 @@
 
 ---
 
-## 📖 Table of Contents
-- [Project Description](#project-description)
-- [Core Features](#core-features)
-- [Built-in Commands](#built-in-commands)
-- [Quick Start](#quick-start)
-- [Usage Examples](#usage-examples)
-- [Technical Architecture](#technical-architecture)
-- [Resources](#resources)
-
----
 
 ## 📝 Project Description
 `minishell` is a lightweight simulation of Bash. It reads user commands, handles quotes and environment variable expansions, combines programs using pipes and redirections, and reacts to system signals (such as `Ctrl-C`, `Ctrl-D`, `Ctrl-\`) just like a real Bash environment.
@@ -134,9 +124,3 @@ The shell processes input through a multi-stage pipeline:
 - **mhnatovs**
 
 ---
-
-## 🤖 AI Usage
-AI tools (such as GitHub Copilot or ChatGPT) were utilized to:
-- Review edge-case handling in execution logic.
-- Debug complex parsing scenarios.
-- Improve code readability and documentation structure.
